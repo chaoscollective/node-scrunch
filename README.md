@@ -41,6 +41,7 @@ app.get('/scrunch/allfiles.js', scrunch.combine([
 ], {
   comment: true,
   refresh: 500,
+  verbose: true
 }));
 
 // then, turn on the minify/compress options for speedy tiny files!
