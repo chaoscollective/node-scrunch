@@ -1,6 +1,6 @@
 # Scrunch #
 
-![Scrunch](http://chaoscollective.org/hotlinks/scrunch.png)
+![Scrunch](http://chaoscollective.org/hotlinks/scrunch.png?2)
 
 Scrunch is an auto-updating javascript combiner for speedy delivery of modular code in node.js. It's super tiny and handles the annoying busy-work that gets in the way when you'd rather be focusing on awesome things.
 
