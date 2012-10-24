@@ -1,0 +1,33 @@
+{
+  "author": {
+    "name": "The Chaos Collective",
+    "email": "help@chaoscollective.org"
+  },
+  "name": "scrunch",
+  "description": "auto-updating js combiner for speedy delivery of modular code with node.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chaoscollective/node-scrunch.git"
+  },
+  "keywords": [
+    "js",
+    "bundler",
+    "scrunch",
+    "uglify",
+    "auto",
+    "minify",
+    "updating",
+    "watch"
+  ],
+  "main": "scrunch.js",
+  "dependencies": {
+    "uglify-js2": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "_id": "scrunch@0.0.1",
+  "_from": "scrunch"
+}
