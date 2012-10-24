@@ -15,8 +15,8 @@ Now you can start your node.js app, edit your javascript files, and see the scru
 
 Scrunch is helpful for developing quick node.js apps since it encourages modular code (lots of little, specific javascript libraries that you can use anywhere) without putting tons of script tags in the HTML that make things slow and stringy.
 
-> scrunch.combine(<file path, or array of file paths>, <options>)
-> returns: function that handles HTTP requests.
+> scrunch.combine(filepath or array_of_filepaths, options)
+>> returns: function that handles HTTP requests.
 
 ## How to use Scrunch?
 
