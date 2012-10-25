@@ -99,7 +99,7 @@ function _combine(fileOrFiles, options){
   addWatches();
   function setHeader(res){
     res.setHeader('Date', (new Date()).toUTCString());
-    res.setHeader('Cache-Control', 'public, max-age=' + ((options.maxAge||0) / 1000));
+    res.setHeader('Cache-Control', 'public, max-age=' + (options.maxAge||0));
     res.setHeader('Content-Type', (options.type||'text/javascript; charset=utf8'));
     res.setHeader('Vary', 'Accept-Encoding');
     res.setHeader('Last-Modified', lastModifiedDate);
