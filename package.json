@@ -22,7 +22,7 @@
   ],
   "main": "scrunch.js",
   "dependencies": {
-    "uglify-js2": "*"
+    "uglify-js": "*"
   },
   "optionalDependencies": {},
   "engines": {
