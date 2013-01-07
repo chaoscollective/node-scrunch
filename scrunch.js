@@ -1,10 +1,9 @@
 
-
 //require('nodetime').profile();
 
 var fs        = require("fs");          // file reading
 var zlib      = require('zlib');        // for compression if desired.
-var UglifyJS  = require("uglify-js2");  // for minification if desired
+var UglifyJS  = require("uglify-js");  // for minification if desired
 
 function _combine(fileOrFiles, options){
   var combined = "";
